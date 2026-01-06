@@ -6,13 +6,9 @@ A Unity-based AI agent project with integrated chatbot functionality.
 
 - **UnityAgents/**: Main Unity project containing the AI agent implementation
   - **Assets/**: Unity assets including scripts, scenes, and settings
-    - **Editor/**: Editor scripts for chatbot integration and agent tools
-    - **Scenes/**: Unity scenes
-    - **Scripts/**: Runtime scripts
-  - **ProjectSettings/**: Unity project configuration
-  - **Packages/**: Unity package dependencies
+    - **Editor/**: Editor scripts for chatbot integration and agent tools. The interesting bits!
 
-- **Server/**: Server components for the project
+- **Server/**: How to setup and run a local server.
 
 ## Features
 
@@ -20,7 +16,7 @@ A Unity-based AI agent project with integrated chatbot functionality.
 - Agent tool system with customizable tools
 - Scene manipulation tools
 - Asset management tools
-- OpenAI service integration
+- OpenAI web API service integration
 
 ## Getting Started
 
@@ -31,8 +27,4 @@ A Unity-based AI agent project with integrated chatbot functionality.
 ## Requirements
 
 - Unity (version specified in ProjectSettings/ProjectVersion.txt)
-- OpenAI API key (for chatbot functionality)
-
-## License
-
-[Add your license information here]
+- GPU for local inference or OpenAI API key (for chatbot functionality)
