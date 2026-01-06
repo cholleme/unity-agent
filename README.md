@@ -2,6 +2,8 @@
 
 A Unity-based AI agent project with integrated chatbot functionality.
 
+![Screenshot](/relative/path/to/img.jpg?raw=true)
+
 ## Project Structure
 
 - **UnityAgents/**: Main Unity project containing the AI agent implementation
